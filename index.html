@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+                <script src="script.js" defer></script>
+    <title>HTML CSS JS personal library</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div id="header-info">
+            <h1>This is a flex nav bar inside a header!</h1>
+            <nav>
+                <li onclick="loadingWeb()"><a href="#">HTML</a></li>
+                <li onclick="loadingWeb()"><a href="#">CSS</a></li>
+                <li onclick="loadingWeb()"><a href="#">JS</a></li>
+            </nav>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- ROW 1 -->
+        <div id="row-1">
+            <h2>Web Fundamentals</h2>
+            <form >
+                <label for="fave">You need all 3 but which is your favorite?</label>
+                <select name="hcjname" id="hcjid" onchange="chooseHcj(this.value)">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JS</option>
+                </select>
+            </form>
+        </div>
+        <hr>
+        <!-- ROW 2 -->
+        <div id="rowTwo">
+            <div class="webCard">
+                <h3>HTML</h3>
+                <img class="web-images" src="./assets/office.png" alt="cute computer">
+                <p>The building blocks of a website!</p>
+                <div class="diffColors">
+                    <p class="pink-words">This is pink.</p>
+                    <p class="green-words">This is green.</p>
+                </div>
+            </div>
+            <div class="webCard">
+                <h3>CSS</h3>
+                <img class="web-images" src="./assets/office1.png" alt="cute keyboard and coffee">
+                <p>The style and look of the website!</p>
+                <div class="diffColors">
+                    <p class="pink-words">This is pink.</p>
+                    <p class="green-words">This is green.</p>
+                </div>
+            </div>
+            <div class="webCard">
+                <h3>Java Script</h3>
+                <img class="web-images" src="./assets/office2.png" alt="cute plant beside monitor with clock">
+                <p>What you can interact with on the site!</p>
+                <div class="diffColors">
+                    <p class="pink-words">This is pink.</p>
+                    <p class="green-words">This is green.</p>
+                </div>
+            </div>
+        </div>
+                <!-- ROW 3 -->
+        <div id="rowThree">
+            <img src="./assets/office3.png" alt="cute desk">
+            <div id="thisRowThree">
+                <h3 id="move-lower">This is row 3!</h3>
+                <p>When is camel case versus dashes ok? javascript functions don't seem to like the dashes.<a href="#">Read more</a></p>
+            </div>
+            <button id="accept" onclick="accept()">Dissapear Button!</button>
+        </div>
+    </main> 
+
+
+</body>
+</html>

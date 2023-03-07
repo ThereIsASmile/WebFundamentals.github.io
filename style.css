@@ -1,0 +1,98 @@
+body {
+    font-family: 'Montserrat', san serif;
+}
+    /* HEADER */
+    header {
+        background-color:rgb(105, 186, 146);
+        color: white;
+        margin: 0 auto;
+    }
+        #header-info {
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            justify-content:space-between;
+        }
+            h1 {
+                width: 50%;
+            }
+            nav {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                list-style-type: none;
+            }     
+                nav  a {
+                    text-decoration: none;
+                    color: white;
+                }
+                main {
+                    width: 75%;
+                    margin: 0 auto;
+            
+                }
+                    /* ROW 1 */
+                    #row-1 {
+                        display: flex;
+                        align-items: center;
+                        justify-content:space-between;
+                    }
+                    /* ROW 2 */
+                    #rowTwo {
+                        display:flex;
+                        margin: 0 auto; 
+                    }
+                        .webCard {
+                            flex: 1;
+                            background-color: lightgray;
+                            margin: 10px 5px;
+                            display:flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            text-align: center;
+            
+                        }    
+                            .web-images {
+                                width: 80%;
+                                /* margin: 0% 15%; */
+                                margin: 0 auto;
+                            }
+                            .diffColors {
+                                display: flex;
+                                justify-content:space-around;
+                            }
+                                .pink-words {
+                                    color: rgb(235, 167, 218);
+                                }
+                                .green-words {
+                                    color: rgb(105, 186, 146);
+                                }
+                    /* ROW 3 */
+                    #rowThree {
+                        background-color: rgb(185, 183, 183);
+                        border: 2px solid black;
+                        margin: 0 auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        padding: 10px 20px;
+
+                    }
+                        #rowThree > img {
+                            width: 15%;
+                        }
+                        #thisRowThree {
+                            /* padding: 10px; */
+                            margin: 0px 20px;
+                            width: 85%;
+                        }
+                        #move-lower {
+                            margin-bottom: -10px;
+                        }
+                        #accept {
+                            padding: 5px 30px;
+                            background-color: rgb(153, 180, 230);
+                            color: white;
+                            border: 2px solid black;
+                            box-shadow: 2px 2px black;
+                        }                                
